@@ -34,7 +34,7 @@ const portfolio = () => {
           <p>
             This is my portfolio website where i put all my latest work and skills. This website is made with next js and tailwind. Hopefully with this website people can find out my capabilities as a frontend developer.
           </p>
-          <a href="https://portfoliojohanes.netlify.app/" target="_blank">
+          <a href="https://portfoliojohanes.netlify.app/" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
           <a href="https://github.com/inganta23/portfolio" target="_blank" rel="noreferrer">
