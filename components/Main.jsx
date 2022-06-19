@@ -26,13 +26,14 @@ const Main = () => {
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pinter hover:scale-110 ease-in duration-300">
               <a
                 href="https://www.linkedin.com/in/johanes-inganta-karo-karo-066193225/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <FaLinkedinIn />
               </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pinter hover:scale-110 ease-in duration-300">
-              <a href="https://github.com/inganta23" target="_blank">
+              <a href="https://github.com/inganta23" target="_blank" rel="noreferrer">
                 <FaGithub />
               </a>
             </div>
@@ -42,7 +43,7 @@ const Main = () => {
               </Link>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pinter hover:scale-110 ease-in duration-300">
-              <a href="https://wa.me/+6281218191202" target="_blank">
+              <a href="https://wa.me/+6281218191202" target="_blank" rel="noreferrer">
                 <BsFillPersonLinesFill />
               </a>
             </div>
