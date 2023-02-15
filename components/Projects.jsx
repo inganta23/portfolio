@@ -2,6 +2,7 @@ import React from "react";
 import greenstoreImg from "../public/assets/greenstore.png";
 import portfolioImg from "../public/assets/portfolio.png";
 import ProjectItem from "./ProjectItem";
+import chatImg from "../public/assets/chat-app.png";
 
 const Projects = () => {
   return (
@@ -13,10 +14,10 @@ const Projects = () => {
         <h2 className="py-4">What I've Build</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="GreenStore Ecommerce"
-            backgroundImg={greenstoreImg}
-            tech={`React JS, Redux, Bootstrap, GraphQL `}
-            projectUrl="/greenstore"
+            title="Chat App"
+            backgroundImg={chatImg}
+            tech={`React JS, Express, Node Js, MongoDB, Socket IO `}
+            projectUrl="/chat"
           />
           <ProjectItem
             title="Portfolio Website"

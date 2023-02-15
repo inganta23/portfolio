@@ -1,6 +1,6 @@
 import Link from "next/link";
-import React,{useRef} from "react";
-import emailjs from "emailjs-com"
+import React, { useRef } from "react";
+import emailjs from "emailjs-com";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
@@ -11,13 +11,17 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_nl6r3qe', form.current, '1AVkO-DmxP-l5yKrQ')
-      .then((result) => {
+    emailjs
+      .sendForm("gmail", "template_nl6r3qe", form.current, "1AVkO-DmxP-l5yKrQ")
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
-      e.target.reset();
+        }
+      );
+    e.target.reset();
   };
   return (
     <div id="contact" className="w-full lg:h-screen">
@@ -37,8 +41,8 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Name here</h2>
-                <p>Front-End Developer</p>
+                <h2 className="py-2">Johanes Inganta Karo-Karo</h2>
+                <p>Software Engineer</p>
                 <p>I am available for freelance or full-time positions.</p>
               </div>
               <div>
