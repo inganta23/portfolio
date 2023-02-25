@@ -1,5 +1,5 @@
 import React from "react";
-import greenstoreImg from "../public/assets/greenstore.png";
+import todo from "../public/assets/todo.png";
 import portfolioImg from "../public/assets/portfolio.png";
 import ProjectItem from "./ProjectItem";
 import chatImg from "../public/assets/chat-app.png";
@@ -24,6 +24,12 @@ const Projects = () => {
             backgroundImg={portfolioImg}
             tech={`Next JS, Tailwind `}
             projectUrl="/portfolio"
+          />
+          <ProjectItem
+            title="Todo List Website"
+            backgroundImg={todo}
+            tech={`React JS, Tailwind, Express JS, PostgreSQL `}
+            projectUrl="/todo"
           />
         </div>
       </div>
