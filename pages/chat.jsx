@@ -3,7 +3,6 @@ import React from "react";
 import chatImg from "../public/assets/chat-app.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import Head from "next/head";
 
 const portfolio = () => {
   return (
