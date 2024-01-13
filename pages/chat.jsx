@@ -30,7 +30,7 @@ const portfolio = () => {
             this website using netlify
           </p>
           <a
-            href="https://chatf1rebase.netlify.app/login"
+            href="https://chatf1rebase.netlify.app"
             target="_blank"
             rel="noreferrer"
           >
