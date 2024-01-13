@@ -1,7 +1,7 @@
 import React from "react";
 import portfolioImg from "../public/assets/portfolio.png";
 import ProjectItem from "./ProjectItem";
-import chatImg from "../public/assets/chat-app.png";
+import chatImg from "../public/assets/chat.png";
 
 const Projects = () => {
   return (
