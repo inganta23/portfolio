@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import chatImg from "../public/assets/chat-app.png";
+import chatImg from "../public/assets/chat.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -17,8 +17,8 @@ const portfolio = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Chat App</h2>
-          <h3>React Js/ Node Js</h3>
+          <h2 className="py-2">Fire Chat</h2>
+          <h3>React Js/ Firebase</h3>
         </div>
       </div>
 
@@ -26,19 +26,18 @@ const portfolio = () => {
         <div className="col-span-4">
           <h2>Project Overview</h2>
           <p className="max-w-[800px]">
-            This is my chat app. I build this website using socket.io so that
-            use can send and receive message in realtime. I deploy this website
-            using railway
+            This is my chat app. I build this website using firebase. I deploy
+            this website using netlify
           </p>
           <a
-            href="https://chat-app-johanes.up.railway.app/"
+            href="https://chatf1rebase.netlify.app/login"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
           <a
-            href="https://github.com/inganta23/mern-chat-app"
+            href="https://github.com/inganta23/chat-firebase"
             target="_blank"
             rel="noreferrer"
           >
@@ -50,19 +49,10 @@ const portfolio = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React Js{" "}
+                <RiRadioButtonFill className="pr-1" /> React Js
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> MongoDB
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Express Js
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Node Js
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Socket IO
+                <RiRadioButtonFill className="pr-1" /> Firebase
               </p>
             </div>
           </div>

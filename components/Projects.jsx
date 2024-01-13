@@ -1,5 +1,4 @@
 import React from "react";
-import todo from "../public/assets/todo.png";
 import portfolioImg from "../public/assets/portfolio.png";
 import ProjectItem from "./ProjectItem";
 import chatImg from "../public/assets/chat-app.png";
@@ -14,9 +13,9 @@ const Projects = () => {
         <h2 className="py-4">What I've Build</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Chat App"
+            title="Fire Chat"
             backgroundImg={chatImg}
-            tech={`React JS, Express, Node Js, MongoDB, Socket IO `}
+            tech={`React JS, Firebase`}
             projectUrl="/chat"
           />
           <ProjectItem
@@ -24,12 +23,6 @@ const Projects = () => {
             backgroundImg={portfolioImg}
             tech={`Next JS, Tailwind `}
             projectUrl="/portfolio"
-          />
-          <ProjectItem
-            title="Todo List Website"
-            backgroundImg={todo}
-            tech={`React JS, Tailwind, Express JS, PostgreSQL `}
-            projectUrl="/todo"
           />
         </div>
       </div>
